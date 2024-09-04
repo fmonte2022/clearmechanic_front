@@ -53,7 +53,6 @@ From the terminal, go to the project folder and run the following command:
 docker build . -t [USER_GIT_HUB]/[NAME_APP]:latest
 ```
 
-
 <br>
 
 ## [Creating the Docker container using the created image][toc]
@@ -66,8 +65,7 @@ On the other hand, in the case of going for option 2 <em>-e "REACT_APP_DOMAIN_SE
 
 ## [Installation completion][toc]
 
-Una vez que el contenedor este corriendo se podrá validar desde su navegador que la URL: http://localhost:[PORT]/ se este ejecutando correctamente, donde deberá visualizar el login del aplicación: </br>
-
+Once the container is running you can validate from your browser that the URL: http://localhost:[PORT]/ is running correctly, where you should see the application login: </br>
 
 ### Login Page
 <img width="858" alt="Captura de pantalla 2024-09-04 a las 1 58 04" src="https://github.com/user-attachments/assets/ad03fbbd-47ae-42e5-b1b0-ca0a27bdb42d">
