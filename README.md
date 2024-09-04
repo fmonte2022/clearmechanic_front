@@ -66,7 +66,7 @@ On the other hand, in the case of going for option 2 <em>-e "REACT_APP_DOMAIN_SE
 
 ## [Run Tests][toc]
 
-From the terminal run the command: <b>npm tests</b>
+From the terminal run the command: <b>npm test</b>
 
 <br>
 
