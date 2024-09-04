@@ -1,0 +1,73 @@
+{
+  "name": "movies-search",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fadi-ui/react-country-flag": "^1.0.4",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@reduxjs/toolkit": "^1.8.6",
+    "axios": "^0.27.2",
+    "classnames": "^2.5.1",
+    "date-fns": "^3.6.0",
+    "js-md5": "^0.8.3",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "react": "^18.2.0",
+    "react-axios": "^2.0.6",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.6.4",
+    "react-pro-sidebar": "^1.1.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.2",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.2",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.34.1",
+    "jsdom": "^24.0.0",
+    "prop-types": "^15.8.1",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
+    "typescript": "^4",
+    "vite": "^5.2.7",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.4.0",
+    "webpack": "^5.91.0"
+  },
+  "overrides": {
+    "react-refresh": "0.11.0"
+  }
+}
