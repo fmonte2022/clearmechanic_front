@@ -12,7 +12,6 @@ This document will detail the steps for installing the application.
 - [Finalización de instalación](#finalización-de-instalación)
   -   [Login Page](#login-page)
   -   [Home Page](#home-page)
--  [Storybooks](#storybooks)
 
 <br>
 
@@ -71,25 +70,17 @@ Una vez que el contenedor este corriendo se podrá validar desde su navegador qu
 
 
 ### Login Page
-![Captura de pantalla 2024-03-27 152325](https://github.com/fmonte2022/extendeal/assets/104769503/9e03f455-6983-45e0-bdc0-2e29acb2452b)
+<img width="858" alt="Captura de pantalla 2024-09-04 a las 1 58 04" src="https://github.com/user-attachments/assets/ad03fbbd-47ae-42e5-b1b0-ca0a27bdb42d">
+
 
 Podrá acceder usando los siguientes accesos cargados: </br>
 <b>Username:</b> admin  <b>Password:</b> admin</br>
 <b>Username:</b> ruben  <b>Password:</b> ruben123
 
 ### Home Page
-![Captura de pantalla 2024-03-27 152046](https://github.com/fmonte2022/extendeal/assets/104769503/4515d80a-1ec8-4f8d-8412-701aabd9f340)
+<img width="1725" alt="Captura de pantalla 2024-09-04 a las 1 58 37" src="https://github.com/user-attachments/assets/4ffe885d-e93e-402e-a9ac-bdd6fbdce3c8">
 
 <br>
 
-#### [Storybooks][toc]
-
-Se ha agregado el storybooks de algunos componentes construidos. Para poder verlos ejecutar:
-
-```
-npm run storybook
-```
-
-![Captura de pantalla 2024-04-03 003439](https://github.com/fmonte2022/extendeal/assets/104769503/dff42c7d-e219-4ad9-ba2c-188cc6cda0be)
 
 [toc]: #content "Go to table of contents"
