@@ -1,7 +1,7 @@
 # ClearMechanic - Challenge
 This document will detail the steps for installing the application.
 
-#### Contenido
+#### Content
 
 - [Docker Installation](#docker-instalation)
 - [Set Environment Variables](#set-environment-variables)
@@ -92,4 +92,4 @@ npm run storybook
 
 ![Captura de pantalla 2024-04-03 003439](https://github.com/fmonte2022/extendeal/assets/104769503/dff42c7d-e219-4ad9-ba2c-188cc6cda0be)
 
-[toc]: #contenido "Ir a la tabla de contenidos"
+[toc]: #content "Go to table of contents"
