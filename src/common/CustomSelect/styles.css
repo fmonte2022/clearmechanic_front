@@ -1,0 +1,11 @@
+.customSelect__root {
+    width: 100%;
+}
+.customSelect__content {
+    margin-top: 15px;
+}
+.customSelect__label {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.avatarUser__root {
+    align-items: center;
+}
+.avatarUser__root  .MuiBadge-badge {
+    bottom: 12% !important;
+    left: 90% !important;
+}
+.avatarUser__card {
+    padding-right: 0 !important;
+}

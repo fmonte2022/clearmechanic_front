@@ -1,0 +1,26 @@
+.formFieldType__container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px 12px 0 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.formFieldType__form {
+    margin: 0;
+    flex-direction: column !important;
+    gap: 20px;
+    width: 100%;
+}
+.formFieldType__textField {
+    background-color: white;
+    width: 100%;
+}
+.formFieldType__form_range {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative !important;
+}
+.formFieldType__form_options {
+    position: relative !important;
+}

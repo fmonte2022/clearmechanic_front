@@ -1,0 +1,38 @@
+.customTable__cellValue_warning {
+    color: orange !important;
+    font-weight: bold;
+}
+.customTable__cellValue_error {
+    color: red !important;
+    font-weight: bold;
+}
+.customTable__cellValue_success {
+    color: green !important;
+    font-weight: bold;
+}
+.customTable__cellValue_none {
+    color: inherit;
+}
+.customTable__tooltip_box {
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.customTable__tooltip_error {
+    background-color: red;
+}  
+.customTable__tooltip_success {
+    background-color: green;
+}  
+.customTable__tooltip_warning {
+    background-color: orange;
+}
+.customTable__tooltip_legend {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

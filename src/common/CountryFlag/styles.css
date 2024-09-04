@@ -1,0 +1,13 @@
+
+.countryFlag__flags {
+    display: flex;
+    gap: 5px;
+    padding-left: 5px;
+}
+.countryFlag__divider {
+    height: 1px;
+    background-color: gray;
+}
+.countryFlag__flagDisabled {
+    filter: grayscale(1);
+}

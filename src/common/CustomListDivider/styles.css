@@ -1,0 +1,18 @@
+.customListDivider__root {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.customListDivider__divider {
+    height: 20px !important;
+    width: 2px !important;
+}
+.customListDivider__content {
+    display: flex;
+    align-items: center;
+}
+.customListDivider__item {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}

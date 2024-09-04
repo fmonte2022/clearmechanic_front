@@ -1,0 +1,12 @@
+.searchMovieFilter__container {
+  width: 100%;
+}
+.searchMovieFilter__textField {
+  background-color: white;
+  width: inherit !important;
+}
+.searchMovieFilter__form {
+  margin: 0;
+  flex-direction: row !important;
+  gap: 15px;
+}

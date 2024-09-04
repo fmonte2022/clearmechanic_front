@@ -1,0 +1,11 @@
+.customRadioButton__root {
+    width: 100%;
+}
+.customRadioButton__content {
+    margin-top: 15px;
+}
+.customRadioButton__label {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}

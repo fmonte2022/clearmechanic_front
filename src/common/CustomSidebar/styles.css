@@ -1,0 +1,53 @@
+.customSidebar__root {
+    width: 250px;
+    flex-shrink: 0;
+}
+.customSidebar__version {
+    margin-top: 5px;
+}
+.customSidebar__toolbar {
+    margin-bottom: 20px;
+    padding-left: 8px !important;
+    padding-right: 20px !important;
+}
+.customSidebar__footer {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: small;
+    display: flex;
+    justify-content:space-between;
+    gap: 15px;
+    width: 100%;
+}
+.customSidebar__item_icon {
+   color: #fff !important;
+}
+.customSidebar__stack {
+    width: 100%;
+}
+.customSidebar__avatar {
+   display: flex;
+   gap: 10px;
+   font-size: small;
+   padding-top: 18px;
+}
+.customSidebar__avatar img {
+    animation-name: App-logo-spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.customSidebar__avatar span {
+    padding-top: 11px;
+    padding-left: 10px;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

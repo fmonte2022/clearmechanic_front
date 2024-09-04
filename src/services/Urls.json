@@ -1,0 +1,6 @@
+{
+    "GET_ALL_MOVIES": "Movie/getByFilter?page=:page&limit=:limit&q=:query",
+    "GET_ALL_ACTORS": "Actor",
+    "GET_ALL_GENDERS": "Gender",
+    "GET_ACTIVE_USER": "User/validateUser?userName=:userName&password=:password"
+}

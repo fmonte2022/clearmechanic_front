@@ -1,0 +1,30 @@
+.MovieListPage__container {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.MovieListPage__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.MovieListPage__title {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    font-size: x-large;
+    box-shadow: 0 8px 15px rgba(155, 163, 180, 0.1);
+}
+.MovieListPage__filter {
+    display: flex;
+    gap: 15px;
+}
+.MovieListPage__cleanFilter {
+    padding-top: 15px;
+    width: 100%;
+}
+.MovieListPage__cleanFilter :first-child {
+    display: flex;
+    gap: 8px;
+}
