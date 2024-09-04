@@ -8,8 +8,8 @@ This document will detail the steps for installing the application.
   -   [Option 1](#option-1---creating-the-environment-file) Creating the environment file .env
   -   [Option 2](#option-2---set-environment-variables-from-docker-image-execution) Set environment variables from Docker image execution
 - [Creating the docker image](#creating-the-docker-image)
-- [Creación del contenedor de Docker utilizando la imagen creada](#creación-del-contenedor-de-docker-utilizando-la-imagen-creada)
-- [Finalización de instalación](#finalización-de-instalación)
+- [Creating the Docker container using the created image](#creating-the-docker-container-using-the-created-image)
+- [Installation completion](#installation-completion)
   -   [Login Page](#login-page)
   -   [Home Page](#home-page)
 
@@ -56,15 +56,15 @@ docker build . -t [USER_GIT_HUB]/[NAME_APP]:latest
 
 <br>
 
-## [Creación del contenedor de Docker utilizando la imagen creada][toc]
+## [Creating the Docker container using the created image][toc]
 
-Desde la terminal ejecutar el comando: <em>docker run -d -p [PORT]:3000 [IMAGE_NAME]</em> </br></br>
-<b>Nota:</b> Como <b>PORT</b> pueden utilizar 3000 que es el valor por default, pero si el puerto se tiene ocupado por otra aplicación podrían cambiarlo. </br>
-Por otro lado, en el caso de ir por la opción 2  <em>-e "REACT_APP_DOMAIN_SERVER=http://localhost:[PORT_SERVER]"</em>
+From the terminal run the command: <em>docker run -d -p [PORT]:3000 [IMAGE_NAME]</em> </br></br>
+<b>Note:</b> As <b>PORT</b> you can use 3000 which is the default value, but if the port is occupied by another application you could change it. </br>
+On the other hand, in the case of going for option 2 <em>-e "REACT_APP_DOMAIN_SERVER=http://localhost:[PORT_SERVER]"</em>
 
 <br>
 
-## [Finalización de instalación][toc]
+## [Installation completion][toc]
 
 Una vez que el contenedor este corriendo se podrá validar desde su navegador que la URL: http://localhost:[PORT]/ se este ejecutando correctamente, donde deberá visualizar el login del aplicación: </br>
 
@@ -72,10 +72,8 @@ Una vez que el contenedor este corriendo se podrá validar desde su navegador qu
 ### Login Page
 <img width="858" alt="Captura de pantalla 2024-09-04 a las 1 58 04" src="https://github.com/user-attachments/assets/ad03fbbd-47ae-42e5-b1b0-ca0a27bdb42d">
 
-
-Podrá acceder usando los siguientes accesos cargados: </br>
+You can access using the following loaded accesses: </br>
 <b>Username:</b> admin  <b>Password:</b> admin</br>
-<b>Username:</b> ruben  <b>Password:</b> ruben123
 
 ### Home Page
 <img width="1725" alt="Captura de pantalla 2024-09-04 a las 1 58 37" src="https://github.com/user-attachments/assets/4ffe885d-e93e-402e-a9ac-bdd6fbdce3c8">
