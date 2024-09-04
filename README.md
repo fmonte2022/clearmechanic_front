@@ -1,13 +1,13 @@
-# Extendeal - Challenge
-En este documento se detallará los pasos para la instalación de la aplicación.
+# ClearMechanic - Challenge
+This document will detail the steps for installing the application.
 
 #### Contenido
 
-- [Instalación de Docker](#instalación-de-docker)
-- [Configuración de variables de entorno](#configuración-de-variables-de-entorno)
-  -   [Opción 1](#opción-1---creación-del-archivo-de-entorno) Creación del archivo de entorno .env
-  -   [Opción 2](#opción-2---configuración-de-variables-de-entorno-desde-la-ejecución-de-la-imagen-docker) Configuración de variables de entorno desde la ejecución de la imagen Docker
-- [Creación de la imagen docker de la aplicación](#creación-de-la-imagen-docker-de-la-aplicación)
+- [Docker Installation](#docker-instalation)
+- [Set Environment Variables](#set-environment-variables)
+  -   [Option 1](#option-1---creating-the-environment-file) Creating the environment file .env
+  -   [Option 2](#option-2---set-environment-variables-from-docker-image-execution) Set environment variables from Docker image execution
+- [Creating the docker image](#creating-the-docker-image)
 - [Creación del contenedor de Docker utilizando la imagen creada](#creación-del-contenedor-de-docker-utilizando-la-imagen-creada)
 - [Finalización de instalación](#finalización-de-instalación)
   -   [Login Page](#login-page)
@@ -16,40 +16,40 @@ En este documento se detallará los pasos para la instalación de la aplicación
 
 <br>
 
-## [Instalación de Docker][toc]
+## [Docker Installation][toc]
 
-En el caso que no se tenga instalado el motor de Docker se debe instalar usando el siguiente link: https://docs.docker.com/engine/install/
+In case the Docker engine is not installed, it must be installed using the following link: https://docs.docker.com/engine/install/
 
 <br>
 
-## [Configuración de variables de entorno][toc]
+## [Set Environment Variables][toc]
 
-### Opción 1 - Creación del archivo de entorno
+### Option 1 - Creating the environment file
 
-Desde la raiz del proyecto crear el archivo <b>.env</b> y agregar las siguientes dos propiedades:</br>
-<em>REACT_APP_DOMAIN_SERVER=[URL_SERVER]</em> -> <b>URL_SERVER</b> es la url del servidor de películas donde fue instalado.
+From the root of the project create the file <b>.env</b> and add the following two properties:</br>
+<em>REACT_APP_DOMAIN_SERVER=[URL_SERVER]</em> -> <b>URL_SERVER</b> is the url of the movies server where it was installed.
 <em>REACT_APP_VERSION=$npm_package_version</em>
 
-### Opción 2 - Configuración de variables de entorno desde la ejecución de la imagen Docker
+### Option 2 - Set environment variables from Docker image execution
 
-Usando el comando <b>-e</b> se podrá configurar las variables de entorno, por ejemplo:
+Using the command <b>-e</b> you can configure environment variables, for example:  https://localhost:7250/api/
 
 ```
-docker run -d -p 3000:3000 -e "REACT_APP_DOMAIN_SERVER=http://localhost:3001" -e "REACT_APP_VERSION=$npm_package_version" extendeal
+docker run -d -p 3000:3000 -e "REACT_APP_DOMAIN_SERVER=https://localhost:7250/api/" -e "REACT_APP_VERSION=$npm_package_version" clearmechanic
 ```
 
 <br>
 
-## [Creación de la imagen docker de la aplicación][toc]
+## [Creating the docker image][toc]
 
-### Opción 1 - Creación desde el IDE (VsCode) + Extensión Docker
+### Option 1 - Creation from the IDE (VsCode) + Extension Docker
 
-Desde el IDE (VsCode) instalar la extensión oficial de Docker y luego ejecutar el <b>Build image</b> sobre el archivo <b>"Dockerfile"</b>. </br></br>
-<b>Nota:</b> Indicar el nombre de imagen que deseen. Sugerencia de formato <b>[USER_GIT_HUB]/[NAME_APP]:latest</b>
+From the IDE (VsCode) install the official Docker extension and then run the <b>Build image</b> about the file <b>"Dockerfile"</b>. </br></br>
+<b>Note:</b> Please indicate the name of the image you want. Format suggestion <b>[USER_GIT_HUB]/[NAME_SERVER]:latest</b>
 
-### Opción 2 - Por linea de comando
+### Option 2 - By command line
 
-Desde la terminal, ir a la carpeta del proyecto y ejecutar el siguiente comando:
+From the terminal, go to the project folder and run the following command:
 ```
 docker build . -t [USER_GIT_HUB]/[NAME_APP]:latest
 ```
