@@ -1,4 +1,4 @@
-# ClearMechanic - Challenge
+# ClearMechanic - Challenge - Front
 This document will detail the steps for installing the application.
 
 #### Content
